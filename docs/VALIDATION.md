@@ -12,7 +12,7 @@ Verified in the Linux build workspace on 19 November 2026.
 - Gradle `:app:assembleDebug :app:assembleRelease :app:bundleRelease :app:lintRelease`: successful with JDK 17, SDK 36 and build tools 36.0.0.
 - Android lint: zero errors; four reviewed warnings (newer-API manifest attributes, newer Gradle available, required JavaScript enablement). API 33+ has an explicit OnBackInvoked callback; legacy onBackPressed is retained only for older devices with a documented targeted lint suppression.
 - APK signature verified (v2/v3), correct application ID/version/target SDK, no requested permissions, identical bundled HTML, nonempty R8 mapping, no native shared objects.
-- Bundletool 1.18.2 validates the AAB structure. Manifest dump and SHA-256 hashes are included in `release/`.
+- Bundletool 1.18.2 validates the AAB structure and successfully generates a universal test APK whose signature also verifies. Manifest dump and SHA-256 hashes are included in `release/`.
 
 ## Not yet verified
 
