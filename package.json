@@ -1,0 +1,1 @@
+{"name":"racing-learn-fun","version":"1.0.0","private":true,"scripts":{"build":"python3 scripts/package_game.py","test":"node tests/game.test.cjs && node tests/browser.cjs"},"devDependencies":{"playwright":"1.58.2"}}
