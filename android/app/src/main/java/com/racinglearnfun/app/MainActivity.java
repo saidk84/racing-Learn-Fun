@@ -52,6 +52,8 @@ public final class MainActivity extends Activity {
         s.setSupportMultipleWindows(false);
         web.setWebViewClient(new WebViewClient() {
             @Override public WebResourceResponse shouldInterceptRequest(WebView v, WebResourceRequest req) {
+                // Embedded MP3 data URLs are local media, not network requests.
+                if (req.getUrl().toString().startsWith("data:audio/mpeg;base64,")) return null;
                 if (URL.equals(req.getUrl().toString())) {
                     try { return new WebResourceResponse("text/html", "UTF-8", getAssets().open("index.html")); }
                     catch (IOException ignored) { return denied(); }
