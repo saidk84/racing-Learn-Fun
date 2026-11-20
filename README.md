@@ -4,7 +4,7 @@ An offline educational Android racing game inspired by the cream/pastel, rounded
 
 ## Play
 
-- **Play in a browser:** https://saidk84.github.io/racing-Learn-Fun/ (published from the `main` branch by GitHub Pages). The page loads once; game assets and 172 spoken English clips are bundled, so gameplay itself makes no network requests.
+- **Play in a browser:** https://saidk84.github.io/racing-Learn-Fun/ (published from the repository’s existing GitHub Pages setup). The page loads once; game assets and 172 spoken English clips are bundled, so gameplay itself makes no network requests.
 - For a fully offline copy, download `index.html` and open it in a modern desktop browser. All artwork, sounds, and spoken clues are inside the file; no server or internet is needed. On Android, install the test APK for dependable local-file handling and saved progress.
 - APK: `apk/Racing-Learn-Fun-v1.0.0-test.apk` (R8 optimized, signed with a **test** certificate; sideload only).
 - AAB: `aab/Racing-Learn-Fun-v1.0.0-unsigned.aab` (R8 optimized; needs the publisher's upload key before Play submission).
