@@ -41,7 +41,7 @@ jobs:
         run: ANDROID_SDK_ROOT="$ANDROID_HOME" bash scripts/release.sh
       - uses: actions/upload-artifact@v4
         with:
-          name: Racing-Learn-Fun-v1.0.0
+          name: Racing-Learn-Fun-v2.0.0
           path: |
             apk/
             aab/

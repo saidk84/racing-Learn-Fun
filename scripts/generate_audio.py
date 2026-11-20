@@ -9,6 +9,6 @@ phrases.update({'correct':'Great finding!','combo':'Amazing! Keep it up!','finis
 for key,phrase in phrases.items():
  with tempfile.TemporaryDirectory() as tmp:
   wav=tmp+'/voice.wav'
-  subprocess.run([os.getenv('ESPEAK_BIN','espeak-ng'),'-v','en-us','-s','145','-p','58','-w',wav,phrase],check=True)
+  subprocess.run([os.getenv('ESPEAK_BIN','espeak-ng'),'-v','en-us','-s','122','-p','68','-w',wav,phrase],check=True)
   subprocess.run(['ffmpeg','-y','-loglevel','error','-i',wav,'-codec:a','libmp3lame','-b:a','48k',str(root/'assets/audio'/f'{key}.mp3')],check=True)
 print(f'Generated {len(phrases)} prompts')

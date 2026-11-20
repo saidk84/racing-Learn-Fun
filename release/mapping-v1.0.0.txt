@@ -1,0 +1,105 @@
+# compiler: R8
+# compiler_version: 8.13.19
+# min_api: 24
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.2"}
+# pg_map_id: fa92c1f2b7ccc32d22c6e84c9b4d8a136ca860de3292a14a11a11d3d9e6259f3
+# pg_map_hash: SHA-256 fa92c1f2b7ccc32d22c6e84c9b4d8a136ca860de3292a14a11a11d3d9e6259f3
+com.racinglearnfun.app.MainActivity -> com.racinglearnfun.app.MainActivity:
+# {"id":"sourceFile","fileName":"MainActivity.java"}
+    android.webkit.WebView web -> a
+    android.window.OnBackInvokedCallback back -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/e;"}
+    int $r8$clinit -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:4:void <init>():25:25 -> <init>
+    1:13:void backNavigation():79:79 -> onBackPressed
+    1:13:void onBackPressed():89 -> onBackPressed
+    1:6:void onCreate(android.os.Bundle):30:35 -> onCreate
+    7:20:void onCreate(android.os.Bundle):40:53 -> onCreate
+    21:22:void onCreate(android.os.Bundle):67:68 -> onCreate
+    23:24:void onCreate(android.os.Bundle):70:71 -> onCreate
+    25:25:void onCreate(android.os.Bundle):73:73 -> onCreate
+    1:19:void onDestroy():96:96 -> onDestroy
+    20:29:void onDestroy():97:97 -> onDestroy
+    30:33:void onDestroy():98:98 -> onDestroy
+    1:15:void onPause():91:91 -> onPause
+    16:19:void onPause():92:92 -> onPause
+    1:11:void onResume():94:94 -> onResume
+com.racinglearnfun.app.MainActivity$$ExternalSyntheticApiModelOutline0 -> a.a:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:5:android.window.OnBackInvokedDispatcher a.MainActivity$$ExternalSyntheticApiModelOutline0.m(com.racinglearnfun.app.MainActivity):0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:4:void a.MainActivity$$ExternalSyntheticApiModelOutline0.m(android.window.OnBackInvokedDispatcher,a.MainActivity$$ExternalSyntheticLambda12):0:0 -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Landroid/window/OnBackInvokedDispatcher;La/e;)V"}
+    1:5:void a.MainActivity$$ExternalSyntheticApiModelOutline0.m$1(android.window.OnBackInvokedDispatcher,a.MainActivity$$ExternalSyntheticLambda12):0:0 -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Landroid/window/OnBackInvokedDispatcher;La/e;)V"}
+com.racinglearnfun.app.MainActivity$$ExternalSyntheticApiModelOutline10 -> a.b:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:3:int a.MainActivity$$ExternalSyntheticApiModelOutline10.m(android.graphics.Insets):0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:3:int a.MainActivity$$ExternalSyntheticApiModelOutline10.m$1(android.graphics.Insets):0:0 -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:3:int a.MainActivity$$ExternalSyntheticApiModelOutline10.m$2(android.graphics.Insets):0:0 -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:3:int a.MainActivity$$ExternalSyntheticApiModelOutline10.m$3(android.graphics.Insets):0:0 -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+com.racinglearnfun.app.MainActivity$$ExternalSyntheticApiModelOutline2 -> a.c:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:5:int a.MainActivity$$ExternalSyntheticApiModelOutline2.m():0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:5:android.graphics.Insets a.MainActivity$$ExternalSyntheticApiModelOutline2.m(android.view.WindowInsets,int):0:0 -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:5:void a.MainActivity$$ExternalSyntheticApiModelOutline2.m(android.view.Window):0:0 -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:5:int a.MainActivity$$ExternalSyntheticApiModelOutline2.m$1():0:0 -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+com.racinglearnfun.app.MainActivity$$ExternalSyntheticLambda11 -> a.d:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    3:15:android.view.WindowInsets com.racinglearnfun.app.MainActivity.lambda$onCreate$0(android.view.View,android.view.WindowInsets):36:36 -> onApplyWindowInsets
+    16:35:android.view.WindowInsets com.racinglearnfun.app.MainActivity.lambda$onCreate$0(android.view.View,android.view.WindowInsets):37:37 -> onApplyWindowInsets
+com.racinglearnfun.app.MainActivity$$ExternalSyntheticLambda12 -> a.e:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    com.racinglearnfun.app.MainActivity com.racinglearnfun.app.MainActivity$$InternalSyntheticLambda$1$a30ec17fc8587add0e69a5dc31d3a6a832f5c15c5a764dd4759f37c7b777d594$2.f$0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:6:void a.MainActivity$$ExternalSyntheticLambda12.<init>(com.racinglearnfun.app.MainActivity):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    5:17:void com.racinglearnfun.app.MainActivity.backNavigation():79:79 -> onBackInvoked
+com.racinglearnfun.app.MainActivity$$ExternalSyntheticLambda13 -> a.f:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    com.racinglearnfun.app.MainActivity com.racinglearnfun.app.MainActivity$$InternalSyntheticLambda$1$a99d1356145d0738924ebc4edba782e5e5d26818ff2048a61e14bf35349ea833$0.f$0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:6:void a.MainActivity$$ExternalSyntheticLambda13.<init>(com.racinglearnfun.app.MainActivity):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    5:20:void com.racinglearnfun.app.MainActivity.lambda$backNavigation$2(java.lang.String):80:80 -> onReceiveValue
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/Object;)V"}
+    21:33:void com.racinglearnfun.app.MainActivity.lambda$backNavigation$2(java.lang.String):81:81 -> onReceiveValue
+    34:42:void com.racinglearnfun.app.MainActivity.lambda$backNavigation$2(java.lang.String):82:82 -> onReceiveValue
+    43:59:void com.racinglearnfun.app.MainActivity.lambda$backNavigation$2(java.lang.String):83:83 -> onReceiveValue
+com.racinglearnfun.app.MainActivity$$ExternalSyntheticLambda14 -> a.g:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    com.racinglearnfun.app.MainActivity com.racinglearnfun.app.MainActivity$$InternalSyntheticLambda$2$bce5b6ac0709d748ada8fe8ec96191f62cb199ecfcecb184c7e9b5d741298d92$0.f$0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:6:void a.MainActivity$$ExternalSyntheticLambda14.<init>(com.racinglearnfun.app.MainActivity):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    3:8:void com.racinglearnfun.app.MainActivity.lambda$backNavigation$1(android.content.DialogInterface,int):83:83 -> onClick
+com.racinglearnfun.app.MainActivity$1 -> a.h:
+# {"id":"sourceFile","fileName":"MainActivity.java"}
+    com.racinglearnfun.app.MainActivity this$0 -> a
+    1:6:void <init>(com.racinglearnfun.app.MainActivity):53:53 -> <init>
+    1:4:android.webkit.WebResourceResponse shouldInterceptRequest(android.webkit.WebView,android.webkit.WebResourceRequest):56:59 -> shouldInterceptRequest
+    5:5:android.webkit.WebResourceResponse com.racinglearnfun.app.MainActivity.denied():76:76 -> shouldInterceptRequest
+    5:5:android.webkit.WebResourceResponse shouldInterceptRequest(android.webkit.WebView,android.webkit.WebResourceRequest):59 -> shouldInterceptRequest
+    6:6:android.webkit.WebResourceResponse shouldInterceptRequest(android.webkit.WebView,android.webkit.WebResourceRequest):61:61 -> shouldInterceptRequest
+    7:7:android.webkit.WebResourceResponse com.racinglearnfun.app.MainActivity.denied():76:76 -> shouldInterceptRequest
+    7:7:android.webkit.WebResourceResponse shouldInterceptRequest(android.webkit.WebView,android.webkit.WebResourceRequest):61 -> shouldInterceptRequest
+    1:17:boolean shouldOverrideUrlLoading(android.webkit.WebView,android.webkit.WebResourceRequest):64:64 -> shouldOverrideUrlLoading

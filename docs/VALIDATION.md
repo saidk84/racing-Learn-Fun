@@ -1,11 +1,11 @@
-# Validation — version 1.0.0
+# Validation — version 2.0.0
 
-Verified in the Linux build workspace on 19 November 2026.
+Verified in the Linux build workspace on 20 November 2026.
 
 ## Passed
 
-- `npm test`: curriculum checks cover all 105 levels, all learning objects repeated at least six times, ten distinct car definitions, voice-file coverage, accuracy/star boundaries, and identical web/Android assets.
-- Headless Chromium/Playwright: all five worlds completed through spawn/collection/result code with deliberate wrong answers; 70% accuracy gives 700 points and two stars; next levels unlock; stars and car choice persist after reload. One row also runs through the animation's collision path using keyboard steering.
+- `npm test`: curriculum checks cover all 300 per-world levels (five topics × 60), all learning objects repeated at least six times, ten distinct car definitions, voice-file coverage, accuracy/star boundaries, and identical web/Android assets.
+- Headless Chromium/Playwright: all five worlds completed through spawn/collection/result code with deliberate wrong answers; accurate answers produce mode-specific scores and stars; next levels unlock; stars and car choice persist after reload. One row also runs through the animation's collision path using keyboard steering.
 - Offline browser context with the initial local HTML supplied by the test harness: bundled speech MP3 decoding, UI gameplay, and local persistence work with networking disabled. No remote assets are used.
 - Pause/resume, native-facing Back/pause functions, leave-race navigation, touch-button steering and keyboard input. No JavaScript errors.
 - Viewport bounds: 320×568, 390×844, 768×1024, 1024×768, 844×390. No horizontal overflow; controls retain a bottom gap. Actual phone/tablet screenshots reviewed.
