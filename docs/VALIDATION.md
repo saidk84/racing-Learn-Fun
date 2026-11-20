@@ -1,4 +1,4 @@
-# Validation — version 2.0.0
+# Validation — version 2.1.0
 
 Verified in the Linux build workspace on 20 November 2026.
 

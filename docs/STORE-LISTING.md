@@ -22,6 +22,6 @@ Ready, set, learn and race! Choose your colorful car and take a gentle drive thr
 
 Designed for curious young learners with grown-up guidance. Tap a lane, swipe, or use the large steering buttons. Progress stays on your device, and favorite levels can be replayed any time.
 
-**Release notes:** Version 2.0: age 3+ preschool racing, 60 levels per topic, mixed learning, Challenge 7+, Senior Speedway, Free Race, softer speech, and Color Garden.
+**Release notes:** Version 2.1: compact race and level cards, a faster Senior Speedway with alien and monster hunts, and spoken clues for every creature.
 
 **Assets:** See `store-assets/`. Screenshots show the actual game. Validate the listing in Play Console for your selected device categories and locales.

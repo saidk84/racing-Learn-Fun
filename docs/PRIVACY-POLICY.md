@@ -2,7 +2,7 @@
 
 **Publisher: complete the legal developer name and support email before publishing this policy.**
 
-Effective date: 20 November 2026. Applies to version 2.0.0.
+Effective date: 20 November 2026. Applies to version 2.1.0.
 
 Racing: Learn & Fun is a children's educational racing game for preschoolers, with separate 7+ and 13+ modes. The game does not collect, transmit, sell, or share personal information. It has no advertisements, analytics, accounts, purchases, social features, or third-party tracking SDKs. The Android app requests no permissions and has no internet access.
 

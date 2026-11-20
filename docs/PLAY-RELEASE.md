@@ -2,7 +2,7 @@
 
 ## Implemented technical requirements
 
-- Unique application ID `com.racinglearnfun.app`, versionCode 2, versionName 2.0.0. Confirm this ID before the first Play upload; it cannot change for that listing later.
+- Unique application ID `com.racinglearnfun.app`, versionCode 3, versionName 2.1.0. Confirm this ID before the first Play upload; it cannot change for that listing later.
 - compileSdk/targetSdk 36, minSdk 24, Android Gradle Plugin 8.13.2, Gradle 8.13, Java 17.
 - Release R8 code optimization/obfuscation and resource shrinking enabled. Retain `mapping.txt` per version for crash deobfuscation. R8 optimizes the Android shell; bundled HTML/JavaScript is a separate asset.
 - No native `.so` libraries: no app-owned native page-alignment or ABI dependency. Google documents Java/Kotlin-only apps as compatible with 16 KB page-size devices; the system WebView is OS-provided. Still run the Play pre-launch report/device tests.

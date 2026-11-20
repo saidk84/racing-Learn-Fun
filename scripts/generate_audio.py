@@ -3,7 +3,8 @@ import json,os,subprocess,tempfile
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]
 worlds=json.loads(subprocess.check_output(['node','-e',"console.log(JSON.stringify(require('./src/data.js').worlds))"],cwd=root))
-phrases={f"{w['id']}-{i['id']}":'Collect '+i['label'] for w in worlds for i in w['items']}
+senior=json.loads(subprocess.check_output(['node','-e',"console.log(JSON.stringify(require('./src/data.js').seniorWorld))"],cwd=root))
+phrases={f"{w['id']}-{i['id']}":'Collect '+i['label'] for w in [*worlds,senior] for i in w['items']}
 phrases.update({'correct':'Great finding!','combo':'Amazing! Keep it up!','finish':'Wonderful racing! You are a learning star!','try-again':'Keep trying! You can do it!'})
 (root/'assets/audio').mkdir(parents=True,exist_ok=True)
 for key,phrase in phrases.items():
