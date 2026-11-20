@@ -33,6 +33,10 @@ jobs:
       - name: Build and lint
         working-directory: android
         run: ./gradlew --no-daemon :app:assembleDebug :app:assembleRelease :app:bundleRelease :app:lintRelease
+      - name: Create ephemeral test signing key
+        run: |
+          mkdir -p "${ANDROID_USER_HOME:-$HOME/.android}"
+          keytool -genkeypair -keystore "${ANDROID_USER_HOME:-$HOME/.android}/debug.keystore" -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=Android Debug,O=Android,C=US"
       - name: Verify and package test artifacts
         run: ANDROID_SDK_ROOT="$ANDROID_HOME" bash scripts/release.sh
       - uses: actions/upload-artifact@v4
